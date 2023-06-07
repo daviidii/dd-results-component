@@ -1,0 +1,170 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500; }
+
+.fw700 {
+  font-weight: 700; }
+
+.fw800 {
+  font-weight: 800; }
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+.flex {
+  display: flex; }
+  .flex--centered {
+    justify-content: center;
+    align-items: center; }
+  .flex--column {
+    flex-direction: column; }
+
+.stage {
+  position: relative;
+  height: 100vh;
+  padding: 3rem; }
+  @media (max-width: 43.75em) {
+    .stage {
+      padding: 0; } }
+
+.bot-margin-10 {
+  margin-bottom: 1rem; }
+
+.bot-margin-20 {
+  margin-bottom: 2rem; }
+
+.bot-margin-30 {
+  margin-bottom: 3rem; }
+
+.top-margin-10 {
+  margin-top: 1rem; }
+
+.top-margin-20 {
+  margin-top: 2rem; }
+
+.top-margin-30 {
+  margin-top: 3rem; }
+
+.results-component {
+  box-shadow: 1.5rem 1.5rem 4rem rgba(48, 59, 90, 0.2);
+  max-width: 80rem;
+  width: 100%;
+  border-radius: 4rem; }
+  @media (max-width: 43.75em) {
+    .results-component {
+      flex-direction: column;
+      max-width: none;
+      height: 100%;
+      border-radius: 0;
+      box-shadow: none; } }
+  .results-component__left {
+    width: 50%;
+    padding: 4rem 0;
+    border-radius: 4rem;
+    text-align: center;
+    background: linear-gradient(180deg, #7857ff, #2e2be9); }
+    @media (max-width: 43.75em) {
+      .results-component__left {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        width: 100%; } }
+  .results-component__left-title {
+    font-size: 2.4rem;
+    color: rgba(255, 255, 255, 0.5); }
+  .results-component__left-rating-box {
+    margin: auto;
+    color: #ebf1ff;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #2421ca, transparent); }
+  .results-component__left-rating {
+    font-size: 7rem; }
+    .results-component__left-rating--total {
+      color: rgba(255, 255, 255, 0.5); }
+  .results-component__left-remarks {
+    display: inline-block;
+    color: #ebf1ff;
+    font-size: 3.6rem; }
+  .results-component__left-feedback {
+    max-width: 25rem;
+    margin: auto;
+    color: rgba(235, 241, 255, 0.6); }
+    @media (max-width: 43.75em) {
+      .results-component__left-feedback {
+        max-width: 30rem; } }
+  .results-component__right {
+    width: 50%;
+    padding: 4rem; }
+    @media (max-width: 43.75em) {
+      .results-component__right {
+        width: 100%; } }
+  .results-component__right-title {
+    color: #303b5a;
+    margin-bottom: 3rem; }
+  .results-component__right-score-box {
+    padding: 1.4rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 1rem; }
+    .results-component__right-score-box--red {
+      background: rgba(255, 87, 87, 0.2); }
+    .results-component__right-score-box--yellow {
+      background: rgba(255, 176, 31, 0.2); }
+    .results-component__right-score-box--green {
+      background: rgba(0, 189, 145, 0.2); }
+    .results-component__right-score-box--blue {
+      background: rgba(17, 37, 212, 0.2); }
+  .results-component__right-category {
+    margin: 0rem auto 0rem 1rem;
+    font-weight: 700; }
+    .results-component__right-category--red {
+      color: #ff5757; }
+    .results-component__right-category--yellow {
+      color: #ffb01f; }
+    .results-component__right-category--green {
+      color: #00bd91; }
+    .results-component__right-category--blue {
+      color: #1125d4; }
+  .results-component__right-score {
+    font-weight: 800;
+    color: #303b5a; }
+    .results-component__right-score--total {
+      font-weight: 700;
+      color: rgba(48, 59, 90, 0.5); }
+
+.btn {
+  position: relative;
+  margin-top: 3rem;
+  width: 100%;
+  padding: 2rem 6rem;
+  border-radius: 30rem;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: white;
+  background: #303b5a;
+  cursor: pointer; }
+  .btn:hover {
+    background-image: linear-gradient(180deg, #7857ff, #2e2be9); }

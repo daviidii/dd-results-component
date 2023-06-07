@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="stage flex flex--centered">
+      <div class="results-component flex">
+        <div class="results-component__left">
+          <h1 class="results-component__left-title bot-margin-30">
+            Your Results
+          </h1>
+          <div
+            class="results-component__left-rating-box flex flex--column flex--centered bot-margin-30"
+          >
+            <span class="results-component__left-rating fw800">76</span>
+            <span class="results-component__left-rating--total"> of 100 </span>
+          </div>
+          <span
+            class="results-component__left-remarks fw700 bot-margin-20 top-margin-20"
+            >Great</span
+          >
+          <p class="results-component__left-feedback">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+        <div class="results-component__right">
+          <h2 class="results-component__right-title">Summary</h2>
+          <div
+            class="results-component__right-score-box results-component__right-score-box--red flex"
+          >
+            <img
+              src="/assets/images/icon-reaction.svg"
+              alt="Reaction icon"
+              class="results-component__right-icon"
+            />
+            <p
+              class="results-component__right-category results-component__right-category--red"
+            >
+              Reaction
+            </p>
+            <span class="results-component__right-score"
+              ><strong>80</strong>
+              <span class="results-component__right-score--total"
+                >/ 100</span
+              ></span
+            >
+          </div>
+          <!--  -->
+          <div
+            class="results-component__right-score-box results-component__right-score-box--yellow flex"
+          >
+            <img
+              src="/assets/images/icon-memory.svg"
+              alt="Reaction icon"
+              class="results-component__right-icon"
+            />
+            <p
+              class="results-component__right-category results-component__right-category--yellow"
+            >
+              Memory
+            </p>
+            <span class="results-component__right-score"
+              ><strong>92</strong>
+              <span class="results-component__right-score--total"
+                >/ 100</span
+              ></span
+            >
+          </div>
+          <!--  -->
+          <div
+            class="results-component__right-score-box results-component__right-score-box--green flex"
+          >
+            <img
+              src="/assets/images/icon-verbal.svg"
+              alt="Reaction icon"
+              class="results-component__right-icon"
+            />
+            <p
+              class="results-component__right-category results-component__right-category--green"
+            >
+              Verbal
+            </p>
+            <span class="results-component__right-score"
+              ><strong>61</strong>
+              <span class="results-component__right-score--total"
+                >/ 100</span
+              ></span
+            >
+          </div>
+          <!--  -->
+          <div
+            class="results-component__right-score-box results-component__right-score-box--blue flex"
+          >
+            <img
+              src="/assets/images/icon-visual.svg"
+              alt="Reaction icon"
+              class="results-component__right-icon"
+            />
+            <p
+              class="results-component__right-category results-component__right-category--blue"
+            >
+              Visual
+            </p>
+            <span class="results-component__right-score"
+              ><strong>72</strong>
+              <span class="results-component__right-score--total"
+                >/ 100</span
+              ></span
+            >
+          </div>
+
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
+  </body>
+</html>
