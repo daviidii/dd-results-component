@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live-site](dd-newsletter-sign-up.netlify.app)
+- Live Site URL: [dd-results-component.netlify.app](dd-results-component.netlify.app)
 
 ## My process
 
